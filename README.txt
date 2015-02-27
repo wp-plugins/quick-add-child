@@ -1,11 +1,11 @@
 === Quick Add Child ===
 
-Contributors: 1fixdotio, yoren
+Contributors: 1fixdotio
 Donate link: http://1fix.io/
 Tags: pages, CPT, child post
 Requires at least: 3.5.1
-Tested up to: 4.1
-Stable tag: 0.6.0
+Tested up to: 4.1.1
+Stable tag: 0.7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,9 @@ Add child posts right from a hierarchical post editing screen.
 
 == Description ==
 
-By adding 2 links on the editing screen: `Add New Child` and `Add New Sibling`, just right after the `Add New` link, you could add child or sibling posts much more quickly.
+By adding 2 links on the editing screen: `Add New Child` and `Add New Sibling`, just right after the `Add New` link, you can add child or sibling posts much more quickly.
+
+The `Add New Child` and `Add New Sibling` links also appear under the "Add New" menu in the Admin Bar, so you can also create new child or sibling posts at the front-end of your WordPress website.
 
 The `Add New Child / Sibling` link will open in a new browser tab, the plugin will select the right Parent in Page Attributes for you.
 
@@ -49,6 +51,9 @@ The `Add New Child / Sibling` link will open in a new browser tab, the plugin wi
 2. A settings page for this plugin.
 
 == Changelog ==
+
+= 0.7.0 =
+* Appending `Add New Child` and `Add New Sibling` links to the "Add New" menu in the Admin Bar.
 
 = 0.6.0 =
 * First release.
